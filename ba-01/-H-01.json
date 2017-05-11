@@ -4,7 +4,7 @@
     "analysis_type": "blank_air", 
     "analyst_name": "lemorgan", 
     "comment": "", 
-    "commit": "fd926b982605a2ab6f2bb88fe8a580347b54b9a8", 
+    "commit": "09aa3f38f852535980623e55e27211bce37bed0f", 
     "conditionals": null, 
     "data_reduction_software": "Pychron16.7(DVC0.1)", 
     "detectors": {
@@ -69,9 +69,9 @@
     "repository_identifier": "Helix_air170", 
     "sample": "blank_air", 
     "spec_sha": "89bc375cd845c070619816cb57227db1a8e33785", 
-    "timestamp": "2017-05-11T12:49:32.659171", 
+    "timestamp": "2017-05-11T13:04:26.647819", 
     "tripped_conditional": null, 
     "username": "lemorgan", 
-    "uuid": "4b6cf4cc-76ed-4261-a1ca-b1c8deb97b32", 
+    "uuid": "e0732081-fb8d-4023-853d-df9250033ba0", 
     "whiff_result": null
 }
