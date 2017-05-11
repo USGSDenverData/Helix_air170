@@ -1,0 +1,77 @@
+{
+    "acquisition_software": "Pychron16.7(Exp0.1,DVC0.1)", 
+    "aliquot": 1, 
+    "analysis_type": "air", 
+    "analyst_name": "", 
+    "comment": "", 
+    "commit": "09aa3f38f852535980623e55e27211bce37bed0f", 
+    "conditionals": null, 
+    "data_reduction_software": "Pychron16.7(DVC0.1)", 
+    "detectors": {
+        "AX": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L2(CDD)": {
+            "deflection": 0, 
+            "gain": 0
+        }
+    }, 
+    "extraction": "helix_air.py", 
+    "identifier": "a-01-H", 
+    "increment": null, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NoIrradiation", 
+    "irradiation_level": "A", 
+    "irradiation_position": 2, 
+    "isotopes": {
+        "Ar40": {
+            "detector": "H2", 
+            "name": "Ar40"
+        }, 
+        "Iso40.9620": {
+            "detector": "H1", 
+            "name": "Iso40.9620"
+        }, 
+        "Iso41.9620": {
+            "detector": "AX", 
+            "name": "Iso41.9620"
+        }, 
+        "Iso42.9620": {
+            "detector": "L1", 
+            "name": "Iso42.9620"
+        }, 
+        "Iso43.9620": {
+            "detector": "L2(CDD)", 
+            "name": "Iso43.9620"
+        }
+    }, 
+    "laboratory": "", 
+    "mass_spectrometer": "helix", 
+    "material": "gas", 
+    "measurement": "helix_air.py", 
+    "post_equilibration": "helix_pump_prep.py", 
+    "post_measurement": "helix_pump_ms.py", 
+    "project": "REFERENCES", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Helix_air170", 
+    "sample": "air", 
+    "spec_sha": "89bc375cd845c070619816cb57227db1a8e33785", 
+    "timestamp": "2017-05-11T13:16:33.690078", 
+    "tripped_conditional": null, 
+    "username": "", 
+    "uuid": "3a41805c-83d8-4b04-9fc6-ea035cb23e28", 
+    "whiff_result": null
+}

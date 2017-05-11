@@ -1,0 +1,57 @@
+{
+    "Ar40": {
+        "error": 0.02955304623125863, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-H-02"
+            }
+        ], 
+        "value": 0.111616332008286
+    }, 
+    "Iso40.9620": {
+        "error": 0.13582507806838087, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-H-02"
+            }
+        ], 
+        "value": 0.007340450364595269
+    }, 
+    "Iso41.9620": {
+        "error": 0.1522338358955399, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-H-02"
+            }
+        ], 
+        "value": -0.022974781159299573
+    }, 
+    "Iso42.9620": {
+        "error": 0.1233303895566467, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-H-02"
+            }
+        ], 
+        "value": 0.194382921970119
+    }, 
+    "Iso43.9620": {
+        "error": 0.002958709087780398, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-H-02"
+            }
+        ], 
+        "value": 0.03509748496311853
+    }
+}
