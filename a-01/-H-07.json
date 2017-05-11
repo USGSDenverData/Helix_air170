@@ -1,0 +1,77 @@
+{
+    "acquisition_software": "Pychron16.7(Exp0.1,DVC0.1)", 
+    "aliquot": 7, 
+    "analysis_type": "air", 
+    "analyst_name": "lemorgan", 
+    "comment": "", 
+    "commit": "4fecceb16bf3a0ff9688d4ba68c8ebc558da3bdc", 
+    "conditionals": null, 
+    "data_reduction_software": "Pychron16.7(DVC0.1)", 
+    "detectors": {
+        "AX": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L2(CDD)": {
+            "deflection": 0, 
+            "gain": 0
+        }
+    }, 
+    "extraction": "helix_air.py", 
+    "identifier": "a-01-H", 
+    "increment": null, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NoIrradiation", 
+    "irradiation_level": "A", 
+    "irradiation_position": 2, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)", 
+            "name": "Ar36"
+        }, 
+        "Ar37": {
+            "detector": "L1", 
+            "name": "Ar37"
+        }, 
+        "Ar38": {
+            "detector": "AX", 
+            "name": "Ar38"
+        }, 
+        "Ar39": {
+            "detector": "H1", 
+            "name": "Ar39"
+        }, 
+        "Ar40": {
+            "detector": "H2", 
+            "name": "Ar40"
+        }
+    }, 
+    "laboratory": "", 
+    "mass_spectrometer": "Helix", 
+    "material": "gas", 
+    "measurement": "helix_air.py", 
+    "post_equilibration": "helix_pump_prep.py", 
+    "post_measurement": "helix_pump_ms.py", 
+    "project": "REFERENCES", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Helix_air170", 
+    "sample": "air", 
+    "spec_sha": "89bc375cd845c070619816cb57227db1a8e33785", 
+    "timestamp": "2017-05-11T15:54:46.421691", 
+    "tripped_conditional": null, 
+    "username": "lemorgan", 
+    "uuid": "6377450b-aa62-42dc-b187-6d9e5808f95f", 
+    "whiff_result": null
+}
