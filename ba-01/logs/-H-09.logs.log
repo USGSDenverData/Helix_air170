@@ -5,7 +5,7 @@ loading script "helix_air.py"
 loading script "helix_pump_prep.py"
 testing...
 no interpolation path defined
-executed snippet estimated_duration=286.88, duration=0.000216007232666
+executed snippet estimated_duration=286.88, duration=0.000242948532104
 script duration name:air seconds:287.0
 loading script "helix_air.py"
 loading script "helix_pump_ms.py"
@@ -22,15 +22,14 @@ loading script "helix_air.py"
 loading script "helix_pump_prep.py"
 testing...
 no interpolation path defined
-executed snippet estimated_duration=4.0, duration=0.000124931335449
+executed snippet estimated_duration=4.0, duration=0.000123977661133
 Script duration 574.0
 Run total estimated duration= 575.000
 run duration: 0:09:35
 doing event level: 2
 ----------------- start -----------------
 **************** Experiment Type: Ar/Ar, Ar/Ar
-create new session 4944911344
-close session 4944911344
+close session 4966909904
 $$$$$ Clearing conditionals
 adding conditionals 
 Add queue conditionals
@@ -51,14 +50,14 @@ no system conditionals file located at None
 =================================================================================
 start extraction
 do extraction
-Analysis started at 19:33:19.952399
+Analysis started at 09:32:52.118092
 Extraction Started helix_air.py
-19:33:19 -- ******* Extraction Started helix_air.py *******
+09:32:52 -- ******* Extraction Started helix_air.py *******
 state changed from not run to extraction
-DO EXTRACTION <pychron.extraction_line.pyscript_runner.PyScriptRunner object at 0x127f12410>
+DO EXTRACTION <pychron.extraction_line.pyscript_runner.PyScriptRunner object at 0x1291ec4d0>
 testing...
 no interpolation path defined
-executed snippet estimated_duration=68.0, duration=0.00031304359436
+executed snippet estimated_duration=68.0, duration=0.000371932983398
 Air pipette
 open ('3',) {}
 open name=3 desc=---
@@ -68,8 +67,8 @@ actuate state mode=None-script, software_lock=False
 doing actuation None-script open_channel False
 ROUT:OPEN (@103)
 change switch state (True, True)
-update switch state 3 True args=() kw={} ncanvase=2
-19:33:39 -- OPEN   VALVE-3 (SecondToIP)
+update switch state 3 True args=() kw={} ncanvase=3
+09:32:52 -- OPEN   VALVE-3 (SecondToIP)
 -------------------------- open 3 () result=[(True, True)]
 action=open, ok=True, locked=[False]
 close ('2',) {}
@@ -80,8 +79,8 @@ actuate state mode=None-script, software_lock=False
 doing actuation None-script close_channel False
 ROUT:CLOSE (@102)
 change switch state (True, True)
-update switch state 2 False args=() kw={} ncanvase=2
-19:34:20 -- CLOSE  VALVE-2 (ExtrToMS)
+update switch state 2 False args=() kw={} ncanvase=3
+09:32:52 -- CLOSE  VALVE-2 (ExtrToMS)
 -------------------------- close 2 () result=[(True, True)]
 action=close, ok=True, locked=[False]
 open ('1',) {}
@@ -92,8 +91,8 @@ actuate state mode=None-script, software_lock=False
 doing actuation None-script open_channel False
 Open Valve Ion Pump Set ===>> OK
 change switch state (True, True)
-update switch state 1 True args=() kw={} ncanvase=2
-19:34:40 -- OPEN   VALVE-1 (MSIonPump)
+update switch state 1 True args=() kw={} ncanvase=3
+09:32:52 -- OPEN   VALVE-1 (MSIonPump)
 -------------------------- open 1 () result=[(True, True)]
 action=open, ok=True, locked=[False]
 close ('8',) {}
@@ -104,8 +103,8 @@ actuate state mode=None-script, software_lock=False
 doing actuation None-script close_channel False
 ROUT:CLOSE (@108)
 change switch state (True, True)
-update switch state 8 False args=() kw={} ncanvase=2
-19:35:20 -- CLOSE  VALVE-8 (Sample1toFirst)
+update switch state 8 False args=() kw={} ncanvase=3
+09:32:53 -- CLOSE  VALVE-8 (Sample1toFirst)
 -------------------------- close 8 () result=[(True, True)]
 action=close, ok=True, locked=[False]
 close ('9',) {}
@@ -116,8 +115,8 @@ actuate state mode=None-script, software_lock=False
 doing actuation None-script close_channel False
 ROUT:CLOSE (@109)
 change switch state (True, True)
-update switch state 9 False args=() kw={} ncanvase=2
-19:36:01 -- CLOSE  VALVE-9 (Sample2toFirst)
+update switch state 9 False args=() kw={} ncanvase=3
+09:32:53 -- CLOSE  VALVE-9 (Sample2toFirst)
 -------------------------- close 9 () result=[(True, True)]
 action=close, ok=True, locked=[False]
 close ('7',) {}
@@ -128,8 +127,8 @@ actuate state mode=None-script, software_lock=False
 doing actuation None-script close_channel False
 ROUT:CLOSE (@107)
 change switch state (True, True)
-update switch state 7 False args=() kw={} ncanvase=2
-19:36:41 -- CLOSE  VALVE-7 (APInner)
+update switch state 7 False args=() kw={} ncanvase=3
+09:32:53 -- CLOSE  VALVE-7 (APInner)
 -------------------------- close 7 () result=[(True, True)]
 action=close, ok=True, locked=[False]
 open ('5',) {}
@@ -140,9 +139,25 @@ actuate state mode=None-script, software_lock=False
 doing actuation None-script open_channel False
 ROUT:OPEN (@105)
 change switch state (True, True)
-update switch state 5 True args=() kw={} ncanvase=2
-19:37:21 -- OPEN   VALVE-5 (FirstToTurbo)
+update switch state 5 True args=() kw={} ncanvase=3
+09:32:53 -- OPEN   VALVE-5 (FirstToTurbo)
 -------------------------- open 5 () result=[(True, True)]
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('1', True, False)
+update switch state 1 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=3
 action=open, ok=True, locked=[False]
 open ('11',) {}
 open name=11 desc=---
@@ -150,11 +165,29 @@ check software interlocks 11
 interlocks []
 actuate state mode=None-script, software_lock=False
 doing actuation None-script open_channel False
+Switch indicator state True, Open
 ROUT:OPEN (@111)
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=3
 change switch state (True, True)
-update switch state 11 True args=() kw={} ncanvase=2
-19:38:01 -- OPEN   VALVE-11 (APSafety)
+update switch state 11 True args=() kw={} ncanvase=3
+09:32:54 -- OPEN   VALVE-11 (APSafety)
 -------------------------- open 11 () result=[(True, True)]
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
 action=open, ok=True, locked=[False]
 open ('6',) {}
 open name=6 desc=---
@@ -164,16 +197,50 @@ actuate state mode=None-script, software_lock=False
 doing actuation None-script open_channel True
 ROUT:OPEN (@106)
 change switch state (True, True)
-update switch state 6 True args=() kw={} ncanvase=2
-19:38:42 -- OPEN   VALVE-6 (APOuter)
+update switch state 6 True args=() kw={} ncanvase=3
+09:32:54 -- OPEN   VALVE-6 (APOuter)
 -------------------------- open 6 () result=[(True, True)]
 action=open, ok=True, locked=[False]
 sleep (15,) {}
 SLEEP 15.0
 block started
 WaitControl setup for 15.0  
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('1', True, False)
+update switch state 1 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('6', True, False)
+update switch state 6 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
 Join finished
-block finished. duration 320.011559963
+block finished. duration 15.0647449493
 close ('6',) {}
 close name=6 desc=---
 check software interlocks 6
@@ -182,8 +249,8 @@ actuate state mode=None-script, software_lock=False
 doing actuation None-script close_channel True
 ROUT:CLOSE (@106)
 change switch state (True, True)
-update switch state 6 False args=() kw={} ncanvase=2
-19:44:42 -- CLOSE  VALVE-6 (APOuter)
+update switch state 6 False args=() kw={} ncanvase=3
+09:33:09 -- CLOSE  VALVE-6 (APOuter)
 -------------------------- close 6 () result=[(True, True)]
 action=close, ok=True, locked=[False]
 sleep (2,) {}
@@ -191,14 +258,82 @@ SLEEP 2.0
 block started
 WaitControl setup for 2.0  
 Join finished
-block finished. duration 60.0028860569
+block finished. duration 2.02445101738
 Blank. Not filling pipette
 sleep (15,) {}
 SLEEP 15.0
 block started
 WaitControl setup for 15.0  
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('1', True, False)
+update switch state 1 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('1', True, False)
+update switch state 1 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
 Join finished
-block finished. duration 320.011092186
+block finished. duration 15.0630199909
 close ('7',) {}
 close name=7 desc=---
 check software interlocks 7
@@ -207,8 +342,8 @@ actuate state mode=None-script, software_lock=False
 doing actuation None-script close_channel False
 ROUT:CLOSE (@107)
 change switch state (True, True)
-update switch state 7 False args=() kw={} ncanvase=2
-19:51:42 -- CLOSE  VALVE-7 (APInner)
+update switch state 7 False args=() kw={} ncanvase=3
+09:33:27 -- CLOSE  VALVE-7 (APInner)
 -------------------------- close 7 () result=[(True, True)]
 action=close, ok=True, locked=[False]
 close ('5',) {}
@@ -219,8 +354,8 @@ actuate state mode=None-script, software_lock=False
 doing actuation None-script close_channel True
 ROUT:CLOSE (@105)
 change switch state (True, True)
-update switch state 5 False args=() kw={} ncanvase=2
-19:52:23 -- CLOSE  VALVE-5 (FirstToTurbo)
+update switch state 5 False args=() kw={} ncanvase=3
+09:33:27 -- CLOSE  VALVE-5 (FirstToTurbo)
 -------------------------- close 5 () result=[(True, True)]
 action=close, ok=True, locked=[False]
 close ('3',) {}
@@ -231,8 +366,8 @@ actuate state mode=None-script, software_lock=False
 doing actuation None-script close_channel True
 ROUT:CLOSE (@103)
 change switch state (True, True)
-update switch state 3 False args=() kw={} ncanvase=2
-19:53:03 -- CLOSE  VALVE-3 (SecondToIP)
+update switch state 3 False args=() kw={} ncanvase=3
+09:33:27 -- CLOSE  VALVE-3 (SecondToIP)
 -------------------------- close 3 () result=[(True, True)]
 action=close, ok=True, locked=[False]
 sleep (2,) {}
@@ -240,7 +375,7 @@ SLEEP 2.0
 block started
 WaitControl setup for 2.0  
 Join finished
-block finished. duration 56.3935940266
+block finished. duration 2.0246078968
 open ('4',) {}
 open name=4 desc=---
 check software interlocks 4
@@ -249,8 +384,8 @@ actuate state mode=None-script, software_lock=False
 doing actuation None-script open_channel True
 ROUT:OPEN (@104)
 change switch state (True, True)
-update switch state 4 True args=() kw={} ncanvase=2
-19:54:40 -- OPEN   VALVE-4 (FirstToSecondStage)
+update switch state 4 True args=() kw={} ncanvase=3
+09:33:30 -- OPEN   VALVE-4 (FirstToSecondStage)
 -------------------------- open 4 () result=[(True, True)]
 action=open, ok=True, locked=[False]
 open ('6',) {}
@@ -261,11 +396,11 @@ actuate state mode=None-script, software_lock=False
 doing actuation None-script open_channel True
 ROUT:OPEN (@106)
 change switch state (True, True)
-update switch state 6 True args=() kw={} ncanvase=2
-19:55:20 -- OPEN   VALVE-6 (APOuter)
+update switch state 6 True args=() kw={} ncanvase=3
+09:33:30 -- OPEN   VALVE-6 (APOuter)
 -------------------------- open 6 () result=[(True, True)]
 action=open, ok=True, locked=[False]
-executed snippet estimated_duration=102.0, duration=1340.63596916
+executed snippet estimated_duration=102.0, duration=38.554224968
 helix_air.py completed successfully
 no extraction action
 Requested Output= 0.000
@@ -280,13 +415,13 @@ AutomatedRunPersister post_extraction_save deprecated
 persistence save - dvc
 no extraction position for 
 Extraction Finished
-19:55:40 -- ******* Extraction Finished *******
+09:33:30 -- ******* Extraction Finished *******
 no overlap. not waiting for min ms pumptime
 start measurement
 do measurement
 L#=ba-01-H analysis type=blank_air
 Measurement Started helix_air.py
-19:55:40 -- ******* Measurement Started helix_air.py *******
+09:33:30 -- ******* Measurement Started helix_air.py *******
 state changed from extraction to measurement
 setting spec, defl, and gains
 GetExtractionLens ===>> 53.17
@@ -301,22 +436,16 @@ GetGain AX ===>> 1.0074395083375
 GetGain L1 ===>> 1.00823694673985
 GetGain L2(CDD) ===>> 0
 pre measurement save
-New frame /Users/labuser/Pychron/data/isotopes/de/ab83b6-d595-4d40-885d-710eddd3bf96.h5
-flush and close file /Users/labuser/Pychron/data/isotopes/de/ab83b6-d595-4d40-885d-710eddd3bf96.h5
+New frame /Users/labuser/Pychron/data/isotopes/89/223612-b0a8-445d-a0f3-2972ef0b24c4.h5
+flush and close file /Users/labuser/Pychron/data/isotopes/89/223612-b0a8-445d-a0f3-2972ef0b24c4.h5
 testing...
 no interpolation path defined
-executed snippet estimated_duration=286.88, duration=0.000220060348511
+executed snippet estimated_duration=286.88, duration=0.000243902206421
 activate_detectors ('H2', 'H1', 'AX', 'L1', 'L2(CDD)') {}
 activate detectors
 *************** Set Analysis View Ar/Ar
 create graphs
-tear down
-Runner runner:None
 clearing graphs
-load indicator states
-Switch indicator state True, Open
-handle state ('11', True, False)
-update switch state 11 True args=(False,) kw={} ncanvase=2
 clear isotope group
 setting isotope det=H2, iso=Ar40
 setting isotope det=H1, iso=Ar39
@@ -333,55 +462,51 @@ setting detector AX to Ar38 (37.962)
 setting detector L1 to Ar37 (36.962)
 setting detector L2(CDD) to Ar36 (35.962)
 Mapping mass to dac mass func: "parabolic"
-H2 map mass coeffs = [  2.53589168e-02  -1.84786063e+00   3.71388844e+01]
-H2 map mass to dac 39.962 >> 3.79189018036
+H2 map mass coeffs = [  2.53589168e-02  -1.84786063e+00   3.71388843e+01]
+H2 map mass to dac 39.962 >> 3.79189
 GetHighVoltage ===>> 9900
-positioning Ar40 (3.79189018036) on H2
+positioning Ar40 (3.79189) on H2
 setting magnet DAC
-current  : 3.787594
+current  : 3.791890
 requested: 3.791890
-Delta Dac: 0.004296
-SetMagnetDAC 3.79189018036 ===>> OK
-Magnet settling time: 0.500
-Switch indicator state True, Open
-handle state ('10', True, False)
-update switch state 10 True args=(False,) kw={} ncanvase=2
-Switch indicator state True, Open
-handle state ('1', True, False)
-update switch state 1 True args=(False,) kw={} ncanvase=2
-Magnet settling complete
-set_dac. change=True
+Delta Dac: 0.000000
+SetMagnetDAC 3.79189 ===>> OK
+set_dac. change=False
 equilibrate () {'inlet': '2', 'outlet': '1', 'eqtime': 30}
 Equilibration Started
-21:27:01 -- ******* Equilibration Started *******
+09:33:31 -- ******* Equilibration Started *******
 check software interlocks 1
 interlocks []
 actuate state mode=None-script, software_lock=False
 doing actuation None-script close_channel True
 Close Valve Ion Pump Set ===>> OK
 change switch state (True, True)
-update switch state 1 False args=() kw={} ncanvase=2
-21:27:01 -- CLOSE  VALVE-1 (MSIonPump)
+update switch state 1 False args=() kw={} ncanvase=3
+09:33:31 -- CLOSE  VALVE-1 (MSIonPump)
 waiting 3s before opening inlet value ('2',)
-Switch indicator state False, Closed
-handle state ('3', False, False)
-update switch state 3 False args=(False,) kw={} ncanvase=2
-Switch indicator state False, Closed
-handle state ('2', False, False)
-update switch state 2 False args=(False,) kw={} ncanvase=2
+update labels <pychron.experiment.plot_panel.PlotPanel object at 0x12c9afdd0>
+update labels "<pychron.graph.stacked_regression_graph.StackedRegressionGraph object at 0x12a4015f0>"
+setting label 0 H2 Ar40
+setting label 1 H1 Ar39
+setting label 2 AX Ar38
+setting label 3 L1 Ar37
+setting label 4 L2(CDD) Ar36
+update labels "<pychron.graph.stacked_graph.StackedGraph object at 0x12a401a10>"
+setting label 0 H2 Ar40
+setting label 1 H1 Ar39
+setting label 2 AX Ar38
+setting label 3 L1 Ar37
+setting label 4 L2(CDD) Ar36
 check software interlocks 2
 interlocks []
 actuate state mode=None-script, software_lock=False
 doing actuation None-script open_channel True
-Switch indicator state False, Closed
 ROUT:OPEN (@102)
-handle state ('5', False, False)
-update switch state 5 False args=(False,) kw={} ncanvase=2
 change switch state (True, True)
-update switch state 2 True args=() kw={} ncanvase=2
-21:28:01 -- OPEN   VALVE-2 (ExtrToMS)
-equilibrating for 30sec
+update switch state 2 True args=() kw={} ncanvase=3
+09:33:34 -- OPEN   VALVE-2 (ExtrToMS)
 set_time_zero () {}
+equilibrating for 30sec
 sniff (30,) {}
 py_sniff
 build tables- sniff [Detector(H2), Detector(H1), Detector(AX), Detector(L1), Detector(L2(CDD))]
@@ -390,114 +515,1187 @@ add group /sniff/Ar39 (Group) '' table H1
 add group /sniff/Ar38 (Group) '' table AX
 add group /sniff/Ar37 (Group) '' table L1
 add group /sniff/Ar36 (Group) '' table L2(CDD)
-flush and close file /Users/labuser/Pychron/data/isotopes/de/ab83b6-d595-4d40-885d-710eddd3bf96.h5
+flush and close file /Users/labuser/Pychron/data/isotopes/89/223612-b0a8-445d-a0f3-2972ef0b24c4.h5
 measuring sniff. ncounts=30
+"sniff" increment series count="1" fit count="0" regressing="False"
+starting measurement
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('3', False, False)
+update switch state 3 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('2', True, False)
+update switch state 2 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('5', False, False)
+update switch state 5 False args=(False,) kw={} ncanvase=3
 Switch indicator state True, Open
 handle state ('4', True, False)
-update switch state 4 True args=(False,) kw={} ncanvase=2
+update switch state 4 True args=(False,) kw={} ncanvase=3
 Switch indicator state False, Closed
 handle state ('7', False, False)
-update switch state 7 False args=(False,) kw={} ncanvase=2
-starting measurement
-flush and close file /Users/labuser/Pychron/data/isotopes/de/ab83b6-d595-4d40-885d-710eddd3bf96.h5
-_execute: Traceback (most recent call last):
-  File "/Users/labuser/Programming/pychron/pychron/pyscripts/pyscript.py", line 360, in execute_snippet
-    func(*argv)
-  File "<string>", line 42, in main
-  File "/Users/labuser/Programming/pychron/pychron/pyscripts/pyscript.py", line 135, in decorator
-    return func(obj, *args, **kw)
-  File "/Users/labuser/Programming/pychron/pychron/pyscripts/measurement_pyscript.py", line 169, in sniff
-    series=self._series_count, block=block):
-  File "/Users/labuser/Programming/pychron/pychron/pyscripts/measurement_pyscript.py", line 883, in _automated_run_call
-    return func(*args, **kw)
-  File "/Users/labuser/Programming/pychron/pychron/experiment/automated_run/automated_run.py", line 384, in py_sniff
-    return self._sniff(ncounts, starttime, starttime_offset, series)
-  File "/Users/labuser/Programming/pychron/pychron/experiment/automated_run/automated_run.py", line 2213, in _sniff
-    check_conditionals, sc)
-  File "/Users/labuser/Programming/pychron/pychron/experiment/automated_run/automated_run.py", line 2274, in _measure
-    m.measure()
-  File "/Users/labuser/Programming/pychron/pychron/experiment/automated_run/data_collector.py", line 114, in measure
-    self._measure(evt)
-  File "/Users/labuser/Programming/pychron/pychron/experiment/automated_run/data_collector.py", line 152, in _measure
-    if not self._iter(i):
-  File "/Users/labuser/Programming/pychron/pychron/experiment/automated_run/data_collector.py", line 179, in _iter
-    if not self._iter_hook(i):
-  File "/Users/labuser/Programming/pychron/pychron/experiment/automated_run/multi_collector.py", line 37, in _iter_hook
-    return self._iteration(i)
-  File "/Users/labuser/Programming/pychron/pychron/experiment/automated_run/data_collector.py", line 215, in _iteration
-    self._plot_data(i, x, k, s)
-  File "/Users/labuser/Programming/pychron/pychron/experiment/automated_run/data_collector.py", line 379, in _plot_data
-    self._plot_data_(i, x, keys, signals)
-  File "/Users/labuser/Programming/pychron/pychron/experiment/automated_run/data_collector.py", line 299, in _plot_data_
-    self._set_plot_data(cnt, det.isotope, det.name, x, signal)
-  File "/Users/labuser/Programming/pychron/pychron/experiment/automated_run/data_collector.py", line 362, in _set_plot_data
-    update_graph(graph, pid, fit, self.series_idx, self.fit_series_idx)
-  File "/Users/labuser/Programming/pychron/pychron/experiment/automated_run/data_collector.py", line 356, in update_graph
-    ypadding='0.1')
-  File "/Users/labuser/Programming/pychron/pychron/graph/graph.py", line 974, in add_datum
-    names = self.series[plotid][series]
-TypeError: list indices must be integers, not NoneType
-
-Post Equilibration Started helix_pump_prep.py
-Post Measurement Started helix_pump_ms.py
-21:28:42 -- ******* Post Equilibration Started helix_pump_prep.py *******
-21:28:42 -- ******* Post Measurement Started helix_pump_ms.py *******
-testing...
-testing...
-no interpolation path defined
-no interpolation path defined
-executed snippet estimated_duration=4.0, duration=0.0001540184021
-executed snippet estimated_duration=0, duration=3.91006469727e-05
-close ('6',) {}
-open ('1',) {}
-close name=6 desc=---
-open name=1 desc=---
-check software interlocks 6
-check software interlocks 1
-interlocks ['7']
-interlocks []
-actuate state mode=None-script, software_lock=False
-actuate state mode=None-script, software_lock=False
-doing actuation None-script close_channel True
-doing actuation None-script open_channel True
-Open Valve Ion Pump Set ===>> OK
-change switch state (True, True)
-update switch state 1 True args=() kw={} ncanvase=2
-21:28:42 -- OPEN   VALVE-1 (MSIonPump)
--------------------------- open 1 () result=[(True, True)]
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('6', True, False)
+update switch state 6 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('3', False, False)
+update switch state 3 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('2', True, False)
+update switch state 2 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('5', False, False)
+update switch state 5 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('4', True, False)
+update switch state 4 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('6', True, False)
+update switch state 6 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('3', False, False)
+update switch state 3 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('2', True, False)
+update switch state 2 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('5', False, False)
+update switch state 5 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('4', True, False)
+update switch state 4 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('6', True, False)
+update switch state 6 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
+09:33:59 -- collecting point 25
 Equilibration Finished
-21:28:51 -- ******* Equilibration Finished *******
+09:34:04 -- ******* Equilibration Finished *******
 check software interlocks 2
 interlocks []
 actuate state mode=None-script, software_lock=False
 doing actuation None-script close_channel True
-Switch indicator state True, Open
-ROUT:CLOSE (@106)
-handle state ('6', True, False)
-update switch state 6 True args=(False,) kw={} ncanvase=2
 ROUT:CLOSE (@102)
-error: 'NoneType' object has no attribute 'row' group:sniff det:H2 iso:Ar40
-error: 'NoneType' object has no attribute 'row' group:sniff det:H1 iso:Ar39
-error: 'NoneType' object has no attribute 'row' group:sniff det:AX iso:Ar38
-error: 'NoneType' object has no attribute 'row' group:sniff det:L1 iso:Ar37
-error: 'NoneType' object has no attribute 'row' group:sniff det:L2(CDD) iso:Ar36
+change switch state (True, True)
+update switch state 2 False args=() kw={} ncanvase=3
+09:34:04 -- CLOSE  VALVE-2 (ExtrToMS)
+Post Equilibration Started helix_pump_prep.py
+09:34:04 -- ******* Post Equilibration Started helix_pump_prep.py *******
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.00021505355835
+close ('6',) {}
+close name=6 desc=---
+check software interlocks 6
+interlocks ['7']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+ROUT:CLOSE (@106)
+change switch state (True, True)
+update switch state 6 False args=() kw={} ncanvase=3
+09:34:04 -- CLOSE  VALVE-6 (APOuter)
+-------------------------- close 6 () result=[(True, True)]
+action=close, ok=True, locked=[False]
+close ('4',) {}
+close name=4 desc=---
+check software interlocks 4
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+ROUT:CLOSE (@104)
+change switch state (True, True)
+update switch state 4 False args=() kw={} ncanvase=3
+09:34:05 -- CLOSE  VALVE-4 (FirstToSecondStage)
+-------------------------- close 4 () result=[(True, True)]
+waiting for write to finish
+measurement finished
+estimated time: 30.000 actual time: :30.169
+flush and close file /Users/labuser/Pychron/data/isotopes/89/223612-b0a8-445d-a0f3-2972ef0b24c4.h5
+set_fits () {}
+using default fits file=/Users/labuser/Pychron/scripts/measurement/fits/nominal.yaml
+set "Ar40" to "('Linear', 'SEM')"
+set "Ar36" to "('Linear', 'SEM')"
+set "Ar37" to "('Linear', 'SEM')"
+set "Ar38" to "('Linear', 'SEM')"
+set "Ar39" to "('Linear', 'SEM')"
+set_baseline_fits () {}
+using default fits file=/Users/labuser/Pychron/scripts/measurement/fits/nominal.yaml
+set "H2" to "('Average', 'SEM')"
+set "L2(CDD)" to "('Average', 'SEM')"
+set "L1" to "('Average', 'SEM')"
+set "AX" to "('Average', 'SEM')"
+set "H1" to "('Average', 'SEM')"
+multicollect () {'ncounts': 120}
+build tables- signal [Detector(H2), Detector(H1), Detector(AX), Detector(L1), Detector(L2(CDD))]
+add group /signal/Ar40 (Group) '' table H2
+add group /signal/Ar39 (Group) '' table H1
+add group /signal/Ar38 (Group) '' table AX
+add group /signal/Ar37 (Group) '' table L1
+add group /signal/Ar36 (Group) '' table L2(CDD)
+flush and close file /Users/labuser/Pychron/data/isotopes/89/223612-b0a8-445d-a0f3-2972ef0b24c4.h5
+measuring signal. ncounts=120
+action=close, ok=True, locked=[False]
+sleep (2,) {}
+SLEEP 2.0
+block started
+WaitControl setup for 2.0  
+"signal" increment series count="2" fit count="1" regressing="True"
+starting measurement
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('3', False, False)
+update switch state 3 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('5', False, False)
+update switch state 5 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
+Join finished
+block finished. duration 2.0478990078
+open ('3',) {}
+open name=3 desc=---
+check software interlocks 3
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+ROUT:OPEN (@103)
+change switch state (True, True)
+update switch state 3 True args=() kw={} ncanvase=3
+09:34:07 -- OPEN   VALVE-3 (SecondToIP)
+-------------------------- open 3 () result=[(True, True)]
 action=open, ok=True, locked=[False]
-executed snippet estimated_duration=0, duration=20.2792408466
+open ('11',) {}
+open name=11 desc=---
+check software interlocks 11
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+ROUT:OPEN (@111)
+change switch state (True, True)
+update switch state 11 True args=() kw={} ncanvase=3
+09:34:07 -- OPEN   VALVE-11 (APSafety)
+-------------------------- open 11 () result=[(True, True)]
+action=open, ok=True, locked=[False]
+open ('5',) {}
+open name=5 desc=---
+check software interlocks 5
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+ROUT:OPEN (@105)
+change switch state (True, True)
+update switch state 5 True args=() kw={} ncanvase=3
+09:34:08 -- OPEN   VALVE-5 (FirstToTurbo)
+-------------------------- open 5 () result=[(True, True)]
+action=open, ok=True, locked=[False]
+executed snippet estimated_duration=6.0, duration=3.50032091141
+helix_pump_prep.py completed successfully
+Post Equilibration Finished
+09:34:08 -- ******* Post Equilibration Finished *******
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
+09:34:30 -- collecting point 25
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
+09:34:55 -- collecting point 50
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
+09:35:20 -- collecting point 75
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
+09:35:45 -- collecting point 100
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
+waiting for write to finish
+measurement finished
+estimated time: 120.000 actual time: :120.444
+flush and close file /Users/labuser/Pychron/data/isotopes/89/223612-b0a8-445d-a0f3-2972ef0b24c4.h5
+baselines () {'detector': 'H2', 'mass': 39.59, 'ncounts': 60}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Baseline
+build tables- baseline [Detector(H2), Detector(H1), Detector(AX), Detector(L1), Detector(L2(CDD))]
+add group baseline table H2
+add group baseline table H1
+add group baseline table AX
+add group baseline table L1
+add group baseline table L2(CDD)
+flush and close file /Users/labuser/Pychron/data/isotopes/89/223612-b0a8-445d-a0f3-2972ef0b24c4.h5
+detector Detector(H2)
+POSITION 39.59 H2
+Mapping mass to dac mass func: "parabolic"
+H2 map mass coeffs = [  2.53589168e-02  -1.84786063e+00   3.71388843e+01]
+H2 map mass to dac 39.59 >> 3.7288390071
+GetHighVoltage ===>> 9900
+positioning 39.59 (3.7288390071) on H2
+setting magnet DAC
+current  : 3.791890
+requested: 3.728839
+Delta Dac: 0.063051
+SetMagnetDAC 3.7288390071 ===>> OK
+Magnet settling time: 0.500
+Magnet settling complete
+set_dac. change=True
+Delaying 4s for detectors to settle
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=3
+Join finished
+measuring baseline. ncounts=60
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
+"baseline" increment series count="2" fit count="1" regressing="True"
+starting measurement
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
+09:36:35 -- collecting point 25
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
+09:37:00 -- collecting point 50
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
+waiting for write to finish
+measurement finished
+estimated time: 60.000 actual time: :60.290
+flush and close file /Users/labuser/Pychron/data/isotopes/89/223612-b0a8-445d-a0f3-2972ef0b24c4.h5
+peak_center () {'detector': 'H2', 'isotope': 'Ar40'}
+peak center: mean=0.33440130756 threshold=3
+Skipping peak center. intensities to small. 0.33440130756<3
+executed snippet estimated_duration=286.88, duration=221.099847078
+helix_air.py completed successfully
+Measurement Finished
+09:37:11 -- ******* Measurement Finished *******
+Post Measurement Started helix_pump_ms.py
+09:37:11 -- ******* Post Measurement Started helix_pump_ms.py *******
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=2.47955322266e-05
+open ('1',) {}
+open name=1 desc=---
+check software interlocks 1
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Valve Ion Pump Set ===>> OK
+change switch state (True, True)
+update switch state 1 True args=() kw={} ncanvase=3
+09:37:11 -- OPEN   VALVE-1 (MSIonPump)
+-------------------------- open 1 () result=[(True, True)]
+action=open, ok=True, locked=[False]
+executed snippet estimated_duration=0, duration=0.281774044037
 helix_pump_ms.py completed successfully
 setting _ms_pumptime
 Post Measurement Finished
-21:29:02 -- ******* Post Measurement Finished *******
+09:37:12 -- ******* Post Measurement Finished *******
+$$$$$$$$$$$$$$$$$$$$ state at run end measurement
+state changed from measurement to success
+post measurement save measured=True aborted=False
+Set filtering
+setting fod for Ar40= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for H2= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar36= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for L2(CDD)= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar37= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for L1= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar38= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for AX= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar39= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for H1= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+persistence save...
+persistence save - db
+post measurement save
+5120368912 connecting to database sqlite:////Users/labuser/Pychron/.appdata/local_lab.db
+connected to db sqlite:////Users/labuser/Pychron/.appdata/local_lab.db
+create new session 5120368912
+close session 5120368912
+No database instance. Not saving post measurement to isotopedb database
+$$$$$$$$$$$$$$$ auto_save_detector_ic=False
+persistence save - dvc
+================= post measurement started
+create new session 4947786352
+close session 4947786352
+---------------- Experiment Queue saving disabled
+DVC saving peakcenter
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('1', True, False)
+update switch state 1 True args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=3
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=3
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=3
+Smart pull ahead: 0 behind: 0
+Up-to-date with origin
+add to repo msg=modified - 89bc375cd845c070619816cb57227db1a8e33785.json
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=3
+add to repo msg=modified - -H-09.json
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=3
+add to repo msg=modified - -H-09.dat.json
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=3
+add to repo msg=modified - -H-09.blan.json
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=3
+add to repo msg=modified - -H-09.inte.json
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=3
+add to repo msg=modified - -H-09.icfa.json
+add to repo msg=modified - -H-09.base.json
+not at valid file /Users/labuser/Pychron/data/.dvc/repositories/Helix_air170/ba-01/tags/-H-09.tags.json
+add to repo msg=modified - -H-09.peak.json
+add to repo msg=modified - -H-09.extr.json
+not at valid file /Users/labuser/Pychron/data/.dvc/repositories/Helix_air170/ba-01/monitor/-H-09.moni.json
+commit message=<COLLECTION>
+add to repo msg=modified - -H-09.inte.json
+add to repo msg=modified - -H-09.base.json
+commit message=<ISOEVO> default collection fits
+add to repo msg=modified - -H-09.blan.json
+commit message=<BLANKS> preceding 
+add to repo msg=modified - -H-09.icfa.json
+commit message=<ICFactor> default
+push repository <pychron.git_archive.repo_manager.GitRepoManager object at 0x12c84f770>
+pushing to remote=origin, url=https://github.com
+no changes to meta repo
+create new session 4947786352
+add association Helix_air170
+get identifier "ba-01-H"
+setting analysis irradiation position=<pychron.dvc.dvc_orm.IrradiationPositionTbl object at 0x12dd30650>
+close session 4947786352
+================= post measurement finished
+09:37:18 -- ******* Post Run Check *******
+loading queue conditionals post_run_actions
+loading system conditionals post_run_actions
+no system conditionals file located at None
+loading queue conditionals post_run_terminations
+loading system conditionals post_run_terminations
+no system conditionals file located at None
+09:37:18 -- ******* Post Run Check Passed *******
+09:37:18 -- Automated run ba-01-H-09 success duration: 266.637 s
 ----------------- finish -----------------
-state changed from measurement to failed
 ----------------- stop -----------------
-Measurement Finished unsuccessfully. Aborted=False
-21:29:02 -- ******* Measurement Finished unsuccessfully. Aborted=False *******
-failed execution step Measurement Failed
-measurement did not complete successfully
-21:29:02 -- Automated run ba-01-H-09 failed duration: 6942.591 s
------------------ finish -----------------
------------------ stop -----------------
-finish run. runs completed=9
+retroactive repository identifiers disabled
+finish run. runs completed=1
+update duration runid=ba-01-H-09, duration=266.637305021, md5=060fae79
+loading script "helix_air.py"
+loading script "helix_pump_ms.py"
+loading script "helix_air.py"
+loading script "helix_pump_prep.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=286.88, duration=0.000274896621704
+script duration name:air seconds:287.0
+loading script "helix_air.py"
+loading script "helix_pump_ms.py"
+loading script "helix_air.py"
+loading script "helix_pump_prep.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=2.8133392334e-05
+air in script context. using previous estimated duration
+script duration name:air seconds:287.0
+loading script "helix_air.py"
+loading script "helix_pump_ms.py"
+loading script "helix_air.py"
+loading script "helix_pump_prep.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000156879425049
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+pump_ms in script context. using previous estimated duration
+script duration name:air seconds:287.0
+pump_prep in script context. using previous estimated duration
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+nruns=36 before=5.0, run_dur=20700.0, btw=1050.0
 write rem/ex queues
 /Users/labuser/Pychron/experiments/rem/Air.rem.txt
 /Users/labuser/Pychron/experiments/rem/Air.ex.txt
