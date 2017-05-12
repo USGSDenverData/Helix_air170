@@ -1,0 +1,14 @@
+{
+    "H2": {
+        "center_dac": null, 
+        "center_signal": null, 
+        "high_dac": null, 
+        "high_signal": null, 
+        "low_dac": null, 
+        "low_signal": null, 
+        "points": "QHJcab5e5MlAcl07vcZnUEByXg4+i1pbQHJe4Tvln8xAcl+0vWNg60ByYIa+aAmiQHJhWb37WSJAcmIsvdLq+UByYv++TofZQHJj0j2RSfJAcmSkvkwf0kByZXe+IkC7QHJmSj4IrExAcmcdPsCPx0ByZ+++rQtt"
+    }, 
+    "fmt": ">ff", 
+    "reference_detector": "H2", 
+    "reference_isotope": "Ar40"
+}
