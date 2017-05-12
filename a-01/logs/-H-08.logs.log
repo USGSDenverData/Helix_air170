@@ -1,0 +1,3542 @@
+do run
+loading script "helix_air.py"
+loading script "helix_pump_ms.py"
+loading script "helix_air.py"
+loading script "helix_pump_prep.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=286.88, duration=0.000234842300415
+script duration name:air seconds:287.0
+loading script "helix_air.py"
+loading script "helix_pump_ms.py"
+loading script "helix_air.py"
+loading script "helix_pump_prep.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=2.31266021729e-05
+air in script context. using previous estimated duration
+script duration name:air seconds:287.0
+loading script "helix_air.py"
+loading script "helix_pump_ms.py"
+loading script "helix_air.py"
+loading script "helix_pump_prep.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=9.10758972168e-05
+Script duration 574.0
+Run total estimated duration= 575.000
+run duration: 0:09:35
+doing event level: 2
+----------------- start -----------------
+**************** Experiment Type: Ar/Ar, Ar/Ar
+create new session 4944911344
+close session 4944911344
+$$$$$ Clearing conditionals
+adding conditionals 
+Add queue conditionals
+add default conditionals
+no Default Conditionals file. None
+Start automated run a-01-H-08
+loading script "helix_air.py"
+loading script "helix_pump_ms.py"
+loading script "helix_air.py"
+loading script "helix_pump_prep.py"
+%%%%%%%%%%%%%%%%%% setting automated run a-01-H-08
+No value "sensitivity_multiplier" in metadata
+$$$$$$$$$$$$$$$ auto_save_detector_ic=False
+============================= Pre Extraction Check =============================
+loading queue conditionals pre_run_terminations
+loading system conditionals pre_run_terminations
+no system conditionals file located at None
+=================================================================================
+start extraction
+do extraction
+Analysis started at 17:54:05.459066
+Extraction Started helix_air.py
+17:54:05 -- ******* Extraction Started helix_air.py *******
+state changed from not run to extraction
+DO EXTRACTION <pychron.extraction_line.pyscript_runner.PyScriptRunner object at 0x127f12410>
+testing...
+no interpolation path defined
+executed snippet estimated_duration=68.0, duration=0.000324010848999
+Air pipette
+open ('3',) {}
+open name=3 desc=---
+check software interlocks 3
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+ROUT:OPEN (@103)
+change switch state (True, True)
+update switch state 3 True args=() kw={} ncanvase=2
+17:54:05 -- OPEN   VALVE-3 (SecondToIP)
+-------------------------- open 3 () result=[(True, True)]
+action=open, ok=True, locked=[False]
+close ('2',) {}
+close name=2 desc=---
+check software interlocks 2
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+ROUT:CLOSE (@102)
+change switch state (True, True)
+update switch state 2 False args=() kw={} ncanvase=2
+17:54:05 -- CLOSE  VALVE-2 (ExtrToMS)
+-------------------------- close 2 () result=[(True, True)]
+action=close, ok=True, locked=[False]
+open ('1',) {}
+open name=1 desc=---
+check software interlocks 1
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open Valve Ion Pump Set ===>> OK
+change switch state (True, True)
+update switch state 1 True args=() kw={} ncanvase=2
+17:54:06 -- OPEN   VALVE-1 (MSIonPump)
+-------------------------- open 1 () result=[(True, True)]
+action=open, ok=True, locked=[False]
+close ('8',) {}
+close name=8 desc=---
+check software interlocks 8
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+ROUT:CLOSE (@108)
+change switch state (True, True)
+update switch state 8 False args=() kw={} ncanvase=2
+17:54:06 -- CLOSE  VALVE-8 (Sample1toFirst)
+-------------------------- close 8 () result=[(True, True)]
+action=close, ok=True, locked=[False]
+close ('9',) {}
+close name=9 desc=---
+check software interlocks 9
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+ROUT:CLOSE (@109)
+change switch state (True, True)
+update switch state 9 False args=() kw={} ncanvase=2
+17:54:06 -- CLOSE  VALVE-9 (Sample2toFirst)
+-------------------------- close 9 () result=[(True, True)]
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+action=close, ok=True, locked=[False]
+Switch indicator state True, Open
+close ('7',) {}
+handle state ('10', True, False)
+close name=7 desc=---
+update switch state 10 True args=(False,) kw={} ncanvase=2
+check software interlocks 7
+interlocks ['6']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+ROUT:CLOSE (@107)
+Switch indicator state True, Open
+handle state ('1', True, False)
+update switch state 1 True args=(False,) kw={} ncanvase=2
+change switch state (True, True)
+update switch state 7 False args=() kw={} ncanvase=2
+17:54:06 -- CLOSE  VALVE-7 (APInner)
+-------------------------- close 7 () result=[(True, True)]
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+action=close, ok=True, locked=[False]
+open ('5',) {}
+open name=5 desc=---
+check software interlocks 5
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+ROUT:OPEN (@105)
+change switch state (True, True)
+update switch state 5 True args=() kw={} ncanvase=2
+17:54:07 -- OPEN   VALVE-5 (FirstToTurbo)
+-------------------------- open 5 () result=[(True, True)]
+action=open, ok=True, locked=[False]
+open ('11',) {}
+open name=11 desc=---
+check software interlocks 11
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+ROUT:OPEN (@111)
+change switch state (True, True)
+update switch state 11 True args=() kw={} ncanvase=2
+17:54:07 -- OPEN   VALVE-11 (APSafety)
+-------------------------- open 11 () result=[(True, True)]
+action=open, ok=True, locked=[False]
+open ('6',) {}
+open name=6 desc=---
+check software interlocks 6
+interlocks ['7']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+ROUT:OPEN (@106)
+change switch state (True, True)
+update switch state 6 True args=() kw={} ncanvase=2
+17:54:07 -- OPEN   VALVE-6 (APOuter)
+-------------------------- open 6 () result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('1', True, False)
+update switch state 1 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('6', True, False)
+update switch state 6 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+Join finished
+block finished. duration 15.0787498951
+close ('6',) {}
+close name=6 desc=---
+check software interlocks 6
+interlocks ['7']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+ROUT:CLOSE (@106)
+change switch state (True, True)
+update switch state 6 False args=() kw={} ncanvase=2
+17:54:23 -- CLOSE  VALVE-6 (APOuter)
+-------------------------- close 6 () result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (2,) {}
+SLEEP 2.0
+block started
+WaitControl setup for 2.0  
+Join finished
+block finished. duration 2.0207400322
+Filling pipette
+open ('7',) {}
+open name=7 desc=---
+check software interlocks 7
+interlocks ['6']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+ROUT:OPEN (@107)
+change switch state (True, True)
+update switch state 7 True args=() kw={} ncanvase=2
+17:54:25 -- OPEN   VALVE-7 (APInner)
+-------------------------- open 7 () result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('1', True, False)
+update switch state 1 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('7', True, False)
+update switch state 7 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('1', True, False)
+update switch state 1 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('7', True, False)
+update switch state 7 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+Join finished
+block finished. duration 15.0956010818
+close ('7',) {}
+close name=7 desc=---
+check software interlocks 7
+interlocks ['6']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+ROUT:CLOSE (@107)
+change switch state (True, True)
+update switch state 7 False args=() kw={} ncanvase=2
+17:54:40 -- CLOSE  VALVE-7 (APInner)
+-------------------------- close 7 () result=[(True, True)]
+action=close, ok=True, locked=[False]
+close ('5',) {}
+close name=5 desc=---
+check software interlocks 5
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+ROUT:CLOSE (@105)
+change switch state (True, True)
+update switch state 5 False args=() kw={} ncanvase=2
+17:54:41 -- CLOSE  VALVE-5 (FirstToTurbo)
+-------------------------- close 5 () result=[(True, True)]
+action=close, ok=True, locked=[False]
+close ('3',) {}
+close name=3 desc=---
+check software interlocks 3
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+ROUT:CLOSE (@103)
+change switch state (True, True)
+update switch state 3 False args=() kw={} ncanvase=2
+17:54:41 -- CLOSE  VALVE-3 (SecondToIP)
+-------------------------- close 3 () result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (2,) {}
+SLEEP 2.0
+block started
+WaitControl setup for 2.0  
+Join finished
+block finished. duration 2.01307487488
+open ('4',) {}
+open name=4 desc=---
+check software interlocks 4
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+ROUT:OPEN (@104)
+change switch state (True, True)
+update switch state 4 True args=() kw={} ncanvase=2
+17:54:43 -- OPEN   VALVE-4 (FirstToSecondStage)
+-------------------------- open 4 () result=[(True, True)]
+action=open, ok=True, locked=[False]
+open ('6',) {}
+open name=6 desc=---
+check software interlocks 6
+interlocks ['7']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+ROUT:OPEN (@106)
+increment shot count 11
+saved current shot count 11
+change switch state (True, True)
+update switch state 6 True args=() kw={} ncanvase=2
+17:54:44 -- OPEN   VALVE-6 (APOuter)
+-------------------------- open 6 () result=[(True, True)]
+action=open, ok=True, locked=[False]
+executed snippet estimated_duration=102.0, duration=38.8812870979
+helix_air.py completed successfully
+no extraction action
+Requested Output= 0.000
+Achieved Output=  0.000
+no extraction action
+no extraction action
+no extraction action
+no extraction action
+persistence save...
+persistence save - db
+AutomatedRunPersister post_extraction_save deprecated
+persistence save - dvc
+no extraction position for 
+Extraction Finished
+17:54:44 -- ******* Extraction Finished *******
+no overlap. not waiting for min ms pumptime
+start measurement
+do measurement
+L#=a-01-H analysis type=air
+Measurement Started helix_air.py
+17:54:44 -- ******* Measurement Started helix_air.py *******
+state changed from extraction to measurement
+setting spec, defl, and gains
+GetExtractionLens ===>> 53.17
+GetYSymmetry ===>> 21.3198412698413
+GetZSymmetry ===>> 0
+GetZFocus ===>> 0
+GetDeflection L2(CDD) ===>> Error: Invalid Command
+Failed reading L2(CDD) deflection. Error=could not convert string to float: Error: Invalid Command. Using previous value 0
+GetGain H2 ===>> 0.986801698763664
+GetGain H1 ===>> 1.00965220605837
+GetGain AX ===>> 1.0074395083375
+GetGain L1 ===>> 1.00823694673985
+GetGain L2(CDD) ===>> 0
+pre measurement save
+New frame /Users/labuser/Pychron/data/isotopes/2c/c11bc3-80f3-44bb-bc6c-888feb646ce1.h5
+flush and close file /Users/labuser/Pychron/data/isotopes/2c/c11bc3-80f3-44bb-bc6c-888feb646ce1.h5
+testing...
+no interpolation path defined
+executed snippet estimated_duration=286.88, duration=0.000221967697144
+activate_detectors ('H2', 'H1', 'AX', 'L1', 'L2(CDD)') {}
+activate detectors
+*************** Set Analysis View Ar/Ar
+create graphs
+clearing graphs
+clear isotope group
+setting isotope det=H2, iso=Ar40
+setting isotope det=H1, iso=Ar39
+setting isotope det=AX, iso=Ar38
+setting isotope det=L1, iso=Ar37
+setting isotope det=L2(CDD), iso=Ar36
+setting previous blanks
+ - setting Ar40 blank 0.21+/-0.05
+ - setting Ar36 blank 0.0372+/-0.0010
+ - setting Ar37 blank 0.06+/-0.05
+ - setting Ar38 blank 0.11+/-0.06
+ - setting Ar39 blank 0.05+/-0.06
+load analysis view
+position_magnet ('Ar40',) {'detector': 'H2'}
+detector Detector(H2)
+POSITION Ar40 H2
+setting detector H2 to Ar40 (39.962)
+setting detector H1 to Ar39 (38.962)
+setting detector AX to Ar38 (37.962)
+setting detector L1 to Ar37 (36.962)
+setting detector L2(CDD) to Ar36 (35.962)
+Mapping mass to dac mass func: "parabolic"
+H2 map mass coeffs = [  2.53589168e-02  -1.84786063e+00   3.71387943e+01]
+H2 map mass to dac 39.962 >> 3.7918
+GetHighVoltage ===>> 9900
+positioning Ar40 (3.7918) on H2
+setting magnet DAC
+current  : 3.728749
+requested: 3.791800
+Delta Dac: 0.063051
+SetMagnetDAC 3.7918 ===>> OK
+Magnet settling time: 0.500
+Magnet settling complete
+set_dac. change=True
+update labels <pychron.experiment.plot_panel.PlotPanel object at 0x1306bdcb0>
+update labels "<pychron.graph.stacked_regression_graph.StackedRegressionGraph object at 0x128ea8e90>"
+setting label 0 H2 Ar40
+setting label 1 H1 Ar39
+setting label 2 AX Ar38
+setting label 3 L1 Ar37
+setting label 4 L2(CDD) Ar36
+update labels "<pychron.graph.stacked_graph.StackedGraph object at 0x12ce76050>"
+setting label 0 H2 Ar40
+setting label 1 H1 Ar39
+setting label 2 AX Ar38
+setting label 3 L1 Ar37
+setting label 4 L2(CDD) Ar36
+equilibrate () {'inlet': '2', 'outlet': '1', 'eqtime': 30}
+Equilibration Started
+17:54:46 -- ******* Equilibration Started *******
+check software interlocks 1
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Valve Ion Pump Set ===>> OK
+change switch state (True, True)
+update switch state 1 False args=() kw={} ncanvase=2
+17:54:46 -- CLOSE  VALVE-1 (MSIonPump)
+waiting 3s before opening inlet value ('2',)
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('3', False, False)
+update switch state 3 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('5', False, False)
+update switch state 5 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('4', True, False)
+update switch state 4 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('6', True, False)
+update switch state 6 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+check software interlocks 2
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+ROUT:OPEN (@102)
+change switch state (True, True)
+update switch state 2 True args=() kw={} ncanvase=2
+17:54:49 -- OPEN   VALVE-2 (ExtrToMS)
+set_time_zero () {}
+equilibrating for 30sec
+sniff (30,) {}
+py_sniff
+build tables- sniff [Detector(H2), Detector(H1), Detector(AX), Detector(L1), Detector(L2(CDD))]
+add group /sniff/Ar40 (Group) '' table H2
+add group /sniff/Ar39 (Group) '' table H1
+add group /sniff/Ar38 (Group) '' table AX
+add group /sniff/Ar37 (Group) '' table L1
+add group /sniff/Ar36 (Group) '' table L2(CDD)
+flush and close file /Users/labuser/Pychron/data/isotopes/2c/c11bc3-80f3-44bb-bc6c-888feb646ce1.h5
+measuring sniff. ncounts=30
+"sniff" increment series count="1" fit count="0" regressing="False"
+starting measurement
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('3', False, False)
+update switch state 3 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('2', True, False)
+update switch state 2 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('5', False, False)
+update switch state 5 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('4', True, False)
+update switch state 4 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('6', True, False)
+update switch state 6 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('3', False, False)
+update switch state 3 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('2', True, False)
+update switch state 2 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('5', False, False)
+update switch state 5 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('4', True, False)
+update switch state 4 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('6', True, False)
+update switch state 6 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+17:55:13 -- collecting point 25
+Equilibration Finished
+17:55:19 -- ******* Equilibration Finished *******
+check software interlocks 2
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+ROUT:CLOSE (@102)
+change switch state (True, True)
+update switch state 2 False args=() kw={} ncanvase=2
+17:55:19 -- CLOSE  VALVE-2 (ExtrToMS)
+Post Equilibration Started helix_pump_prep.py
+17:55:19 -- ******* Post Equilibration Started helix_pump_prep.py *******
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000135898590088
+close ('6',) {}
+close name=6 desc=---
+check software interlocks 6
+interlocks ['7']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+ROUT:CLOSE (@106)
+change switch state (True, True)
+update switch state 6 False args=() kw={} ncanvase=2
+17:55:19 -- CLOSE  VALVE-6 (APOuter)
+-------------------------- close 6 () result=[(True, True)]
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('3', False, False)
+update switch state 3 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('5', False, False)
+update switch state 5 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('4', True, False)
+update switch state 4 True args=(False,) kw={} ncanvase=2
+action=close, ok=True, locked=[False]
+Switch indicator state False, Closed
+close ('4',) {}
+handle state ('7', False, False)
+close name=4 desc=---
+update switch state 7 False args=(False,) kw={} ncanvase=2
+check software interlocks 4
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Switch indicator state False, Closed
+ROUT:CLOSE (@104)
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+change switch state (True, True)
+update switch state 4 False args=() kw={} ncanvase=2
+17:55:19 -- CLOSE  VALVE-4 (FirstToSecondStage)
+-------------------------- close 4 () result=[(True, True)]
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+waiting for write to finish
+measurement finished
+estimated time: 30.000 actual time: :30.204
+flush and close file /Users/labuser/Pychron/data/isotopes/2c/c11bc3-80f3-44bb-bc6c-888feb646ce1.h5
+set_fits () {}
+using default fits file=/Users/labuser/Pychron/scripts/measurement/fits/nominal.yaml
+set "Ar40" to "('Linear', 'SEM')"
+set "Ar36" to "('Linear', 'SEM')"
+set "Ar37" to "('Linear', 'SEM')"
+set "Ar38" to "('Linear', 'SEM')"
+set "Ar39" to "('Linear', 'SEM')"
+set_baseline_fits () {}
+using default fits file=/Users/labuser/Pychron/scripts/measurement/fits/nominal.yaml
+set "H2" to "('Average', 'SEM')"
+set "L2(CDD)" to "('Average', 'SEM')"
+set "L1" to "('Average', 'SEM')"
+set "AX" to "('Average', 'SEM')"
+set "H1" to "('Average', 'SEM')"
+multicollect () {'ncounts': 120}
+build tables- signal [Detector(H2), Detector(H1), Detector(AX), Detector(L1), Detector(L2(CDD))]
+add group /signal/Ar40 (Group) '' table H2
+add group /signal/Ar39 (Group) '' table H1
+add group /signal/Ar38 (Group) '' table AX
+add group /signal/Ar37 (Group) '' table L1
+add group /signal/Ar36 (Group) '' table L2(CDD)
+flush and close file /Users/labuser/Pychron/data/isotopes/2c/c11bc3-80f3-44bb-bc6c-888feb646ce1.h5
+measuring signal. ncounts=120
+action=close, ok=True, locked=[False]
+sleep (2,) {}
+SLEEP 2.0
+block started
+WaitControl setup for 2.0  
+"signal" increment series count="2" fit count="1" regressing="True"
+starting measurement
+Join finished
+block finished. duration 2.03307700157
+open ('3',) {}
+open name=3 desc=---
+check software interlocks 3
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+ROUT:OPEN (@103)
+change switch state (True, True)
+update switch state 3 True args=() kw={} ncanvase=2
+17:55:22 -- OPEN   VALVE-3 (SecondToIP)
+-------------------------- open 3 () result=[(True, True)]
+action=open, ok=True, locked=[False]
+open ('11',) {}
+open name=11 desc=---
+check software interlocks 11
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+ROUT:OPEN (@111)
+change switch state (True, True)
+update switch state 11 True args=() kw={} ncanvase=2
+17:55:22 -- OPEN   VALVE-11 (APSafety)
+-------------------------- open 11 () result=[(True, True)]
+action=open, ok=True, locked=[False]
+open ('5',) {}
+open name=5 desc=---
+check software interlocks 5
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+ROUT:OPEN (@105)
+change switch state (True, True)
+update switch state 5 True args=() kw={} ncanvase=2
+17:55:22 -- OPEN   VALVE-5 (FirstToTurbo)
+-------------------------- open 5 () result=[(True, True)]
+action=open, ok=True, locked=[False]
+executed snippet estimated_duration=6.0, duration=3.51608705521
+helix_pump_prep.py completed successfully
+Post Equilibration Finished
+17:55:22 -- ******* Post Equilibration Finished *******
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+17:55:44 -- collecting point 25
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+17:56:09 -- collecting point 50
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+17:56:34 -- collecting point 75
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+17:56:59 -- collecting point 100
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+waiting for write to finish
+measurement finished
+estimated time: 120.000 actual time: :120.621
+flush and close file /Users/labuser/Pychron/data/isotopes/2c/c11bc3-80f3-44bb-bc6c-888feb646ce1.h5
+baselines () {'detector': 'H2', 'mass': 39.59, 'ncounts': 60}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Baseline
+build tables- baseline [Detector(H2), Detector(H1), Detector(AX), Detector(L1), Detector(L2(CDD))]
+add group baseline table H2
+add group baseline table H1
+add group baseline table AX
+add group baseline table L1
+add group baseline table L2(CDD)
+flush and close file /Users/labuser/Pychron/data/isotopes/2c/c11bc3-80f3-44bb-bc6c-888feb646ce1.h5
+detector Detector(H2)
+POSITION 39.59 H2
+Mapping mass to dac mass func: "parabolic"
+H2 map mass coeffs = [  2.53589168e-02  -1.84786063e+00   3.71387943e+01]
+H2 map mass to dac 39.59 >> 3.7287490071
+GetHighVoltage ===>> 9900
+positioning 39.59 (3.7287490071) on H2
+setting magnet DAC
+current  : 3.791800
+requested: 3.728749
+Delta Dac: 0.063051
+SetMagnetDAC 3.7287490071 ===>> OK
+Magnet settling time: 0.500
+Magnet settling complete
+set_dac. change=True
+Delaying 4s for detectors to settle
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+Join finished
+measuring baseline. ncounts=60
+"baseline" increment series count="2" fit count="1" regressing="True"
+starting measurement
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+17:57:50 -- collecting point 25
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+17:58:15 -- collecting point 50
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+waiting for write to finish
+measurement finished
+estimated time: 60.000 actual time: :60.399
+flush and close file /Users/labuser/Pychron/data/isotopes/2c/c11bc3-80f3-44bb-bc6c-888feb646ce1.h5
+peak_center () {'detector': 'H2', 'isotope': 'Ar40'}
+peak center: mean=5901.70334488 threshold=3
+peak center started
+setup peak center. detector=['H2'], isotope=Ar40
+VersionedUnpickler [<apptools.sweet_pickle.versioned_unpickler.VersionedUnpickler object at 0x13286e890>] using Updater [<apptools.sweet_pickle.updater.Updater object at 0x12fd4dad0>]
+VersionedUnpickler [<apptools.sweet_pickle.versioned_unpickler.VersionedUnpickler object at 0x13286e890>] using Updater [<apptools.sweet_pickle.updater.Updater object at 0x12fd4dad0>]
+VersionedUnpickler [<apptools.sweet_pickle.versioned_unpickler.VersionedUnpickler object at 0x13286e890>] using Updater [<apptools.sweet_pickle.updater.Updater object at 0x12fd4dad0>]
+Mapping mass to dac mass func: "parabolic"
+H2 map mass coeffs = [  2.53589168e-02  -1.84786063e+00   3.71387943e+01]
+H2 map mass to dac 39.962 >> 3.7918
+GetHighVoltage ===>> 9900
+do peak center. <pychron.spectrometer.jobs.peak_center.PeakCenter object at 0x13286e890>
+doing pc
+starting peak center. center dac= 3.7918 step_width=5e-05
+width = 5e-05
+get scan parameters. half-width=0.005,window=0.005, i=0, scalar=1
+Scan parameters center=3.79180 width=0.01000 (3.78680 - 3.79680)
+Moving to starting dac 3.7868
+setting magnet DAC
+current  : 3.728749
+requested: 3.786800
+Delta Dac: 0.058051
+SetMagnetDAC 3.7868 ===>> OK
+Magnet settling time: 0.500
+Magnet settling complete
+set_dac. change=True
+Wait until signal near baseline. tol= -0.065245917028. timeout= 10
+Peak center baseline intensity achieved
+_do_sweep sm= 3.7868, em= 3.7968, stm= 5e-05
+calculated step values: start=3.7868, end=3.7968, width=5e-05, nsteps=201.0
+setting magnet DAC
+current  : 3.786800
+requested: 3.786800
+Delta Dac: 0.000000
+set_dac. change=False
+setting magnet DAC
+current  : 3.786800
+requested: 3.786850
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.786850
+requested: 3.786901
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.786901
+requested: 3.786951
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.786951
+requested: 3.787001
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.787001
+requested: 3.787051
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.787051
+requested: 3.787102
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.787102
+requested: 3.787152
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.787152
+requested: 3.787202
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.787202
+requested: 3.787252
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.787252
+requested: 3.787303
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.787303
+requested: 3.787353
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.787353
+requested: 3.787403
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.787403
+requested: 3.787453
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.787453
+requested: 3.787504
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.787504
+requested: 3.787554
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.787554
+requested: 3.787604
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.787604
+requested: 3.787654
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.787654
+requested: 3.787705
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.787705
+requested: 3.787755
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.787755
+requested: 3.787805
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.787805
+requested: 3.787855
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.787855
+requested: 3.787906
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.787906
+requested: 3.787956
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.787956
+requested: 3.788006
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.788006
+requested: 3.788056
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.788056
+requested: 3.788107
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.788107
+requested: 3.788157
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.788157
+requested: 3.788207
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.788207
+requested: 3.788257
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.788257
+requested: 3.788308
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.788308
+requested: 3.788358
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.788358
+requested: 3.788408
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.788408
+requested: 3.788458
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.788458
+requested: 3.788509
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.788509
+requested: 3.788559
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.788559
+requested: 3.788609
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.788609
+requested: 3.788659
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.788659
+requested: 3.788710
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.788710
+requested: 3.788760
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.788760
+requested: 3.788810
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.788810
+requested: 3.788860
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.788860
+requested: 3.788911
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.788911
+requested: 3.788961
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.788961
+requested: 3.789011
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.789011
+requested: 3.789061
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.789061
+requested: 3.789112
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.789112
+requested: 3.789162
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.789162
+requested: 3.789212
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.789212
+requested: 3.789262
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.789262
+requested: 3.789313
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.789313
+requested: 3.789363
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.789363
+requested: 3.789413
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Magnet settling complete
+Switch indicator state False, Closed
+set_dac. change=True
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+setting magnet DAC
+current  : 3.789413
+requested: 3.789463
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.789463
+requested: 3.789514
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.789514
+requested: 3.789564
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.789564
+requested: 3.789614
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.789614
+requested: 3.789664
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.789664
+requested: 3.789715
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.789715
+requested: 3.789765
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.789765
+requested: 3.789815
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.789815
+requested: 3.789865
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.789865
+requested: 3.789916
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.789916
+requested: 3.789966
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.789966
+requested: 3.790016
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.790016
+requested: 3.790066
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.790066
+requested: 3.790117
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.790117
+requested: 3.790167
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.790167
+requested: 3.790217
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.790217
+requested: 3.790267
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.790267
+requested: 3.790318
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.790318
+requested: 3.790368
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.790368
+requested: 3.790418
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.790418
+requested: 3.790468
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.790468
+requested: 3.790519
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.790519
+requested: 3.790569
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.790569
+requested: 3.790619
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.790619
+requested: 3.790669
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.790669
+requested: 3.790720
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.790720
+requested: 3.790770
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.790770
+requested: 3.790820
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.790820
+requested: 3.790870
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.790870
+requested: 3.790921
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.790921
+requested: 3.790971
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.790971
+requested: 3.791021
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.791021
+requested: 3.791071
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.791071
+requested: 3.791122
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.791122
+requested: 3.791172
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.791172
+requested: 3.791222
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.791222
+requested: 3.791272
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.791272
+requested: 3.791323
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.791323
+requested: 3.791373
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.791373
+requested: 3.791423
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.791423
+requested: 3.791473
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.791473
+requested: 3.791524
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.791524
+requested: 3.791574
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.791574
+requested: 3.791624
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.791624
+requested: 3.791674
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.791674
+requested: 3.791725
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.791725
+requested: 3.791775
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.791775
+requested: 3.791825
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.791825
+requested: 3.791875
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.791875
+requested: 3.791926
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.791926
+requested: 3.791976
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.791976
+requested: 3.792026
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.792026
+requested: 3.792076
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+load indicator states
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.792076
+requested: 3.792127
+Delta Dac: 0.000050
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Magnet settling time: 0.524
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.792127
+requested: 3.792177
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.792177
+requested: 3.792227
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.792227
+requested: 3.792277
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.792277
+requested: 3.792328
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.792328
+requested: 3.792378
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.792378
+requested: 3.792428
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.792428
+requested: 3.792478
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.792478
+requested: 3.792529
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.792529
+requested: 3.792579
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.792579
+requested: 3.792629
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.792629
+requested: 3.792679
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.792679
+requested: 3.792730
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.792730
+requested: 3.792780
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.792780
+requested: 3.792830
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.792830
+requested: 3.792880
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.792880
+requested: 3.792931
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.792931
+requested: 3.792981
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.792981
+requested: 3.793031
+Delta Dac: 0.000050
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Magnet settling time: 0.524
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.793031
+requested: 3.793081
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.793081
+requested: 3.793132
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.793132
+requested: 3.793182
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.793182
+requested: 3.793232
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.793232
+requested: 3.793282
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.793282
+requested: 3.793333
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.793333
+requested: 3.793383
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.793383
+requested: 3.793433
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.793433
+requested: 3.793483
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.793483
+requested: 3.793534
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.793534
+requested: 3.793584
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.793584
+requested: 3.793634
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.793634
+requested: 3.793684
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.793684
+requested: 3.793735
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.793735
+requested: 3.793785
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.793785
+requested: 3.793835
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.793835
+requested: 3.793885
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.793885
+requested: 3.793936
+Delta Dac: 0.000050
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Magnet settling time: 0.524
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.793936
+requested: 3.793986
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.793986
+requested: 3.794036
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.794036
+requested: 3.794086
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.794086
+requested: 3.794137
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.794137
+requested: 3.794187
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.794187
+requested: 3.794237
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.794237
+requested: 3.794287
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.794287
+requested: 3.794338
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.794338
+requested: 3.794388
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.794388
+requested: 3.794438
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.794438
+requested: 3.794488
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.794488
+requested: 3.794539
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.794539
+requested: 3.794589
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.794589
+requested: 3.794639
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.794639
+requested: 3.794689
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.794689
+requested: 3.794740
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.794740
+requested: 3.794790
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.794790
+requested: 3.794840
+Delta Dac: 0.000050
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Magnet settling time: 0.524
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.794840
+requested: 3.794890
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.794890
+requested: 3.794941
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.794941
+requested: 3.794991
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.794991
+requested: 3.795041
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.795041
+requested: 3.795091
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.795091
+requested: 3.795142
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.795142
+requested: 3.795192
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.795192
+requested: 3.795242
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.795242
+requested: 3.795292
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.795292
+requested: 3.795343
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.795343
+requested: 3.795393
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.795393
+requested: 3.795443
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.795443
+requested: 3.795493
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.795493
+requested: 3.795544
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.795544
+requested: 3.795594
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.795594
+requested: 3.795644
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.795644
+requested: 3.795694
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.795694
+requested: 3.795745
+Delta Dac: 0.000050
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Magnet settling time: 0.524
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.795745
+requested: 3.795795
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.795795
+requested: 3.795845
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.795845
+requested: 3.795895
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.795895
+requested: 3.795946
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.795946
+requested: 3.795996
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.795996
+requested: 3.796046
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.796046
+requested: 3.796096
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.796096
+requested: 3.796147
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.796147
+requested: 3.796197
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.796197
+requested: 3.796247
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.796247
+requested: 3.796297
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.796297
+requested: 3.796348
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.796348
+requested: 3.796398
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.796398
+requested: 3.796448
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.796448
+requested: 3.796498
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.796498
+requested: 3.796549
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.796549
+requested: 3.796599
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+load indicator states
+Switch indicator state True, Open
+handle state ('11', True, False)
+update switch state 11 True args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('10', True, False)
+update switch state 10 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('1', False, False)
+update switch state 1 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('3', True, False)
+update switch state 3 True args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('2', False, False)
+update switch state 2 False args=(False,) kw={} ncanvase=2
+Switch indicator state True, Open
+handle state ('5', True, False)
+update switch state 5 True args=(False,) kw={} ncanvase=2
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.796599
+requested: 3.796649
+Delta Dac: 0.000050
+Switch indicator state False, Closed
+handle state ('4', False, False)
+update switch state 4 False args=(False,) kw={} ncanvase=2
+Magnet settling time: 0.524
+Switch indicator state False, Closed
+handle state ('7', False, False)
+update switch state 7 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('6', False, False)
+update switch state 6 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('9', False, False)
+update switch state 9 False args=(False,) kw={} ncanvase=2
+Switch indicator state False, Closed
+handle state ('8', False, False)
+update switch state 8 False args=(False,) kw={} ncanvase=2
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.796649
+requested: 3.796699
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.796699
+requested: 3.796750
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.796750
+requested: 3.796800
+Delta Dac: 0.000050
+Magnet settling time: 0.524
+Magnet settling complete
+set_dac. change=True
+result of _do_sweep=True
+result of _calculate_peak_center=([3.7903771543086124, 3.7918501002003957, 3.793323046092179], [905.65384512657386, 5826.6918577102324, 944.51445243392629], 3.7914292585170291, 5826.6918577102324)
+new center pos Detector(H2) (Ar40) @ 3.7918501002
+sweep finished
+GetHighVoltage ===>> 9900
+dac uncorrected for HV and deflection 3.7918501002
+update mftable H2 Ar40 3.7918501002 message=automated run peakcenter
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+dump mftable to /Users/labuser/Pychron/setupfiles/spectrometer/mftables/mftable.csv
+setting magnet DAC
+current  : 3.796800
+requested: 3.791850
+Delta Dac: 0.004950
+SetMagnetDAC 3.7918501002 ===>> OK
+Magnet settling time: 0.500
+Magnet settling complete
+set_dac. change=True
+flush and close file /Users/labuser/Pychron/data/isotopes/2c/c11bc3-80f3-44bb-bc6c-888feb646ce1.h5
+executed snippet estimated_duration=286.88, duration=338.004228115
+helix_air.py completed successfully
+Measurement Finished
+18:00:22 -- ******* Measurement Finished *******
+Post Measurement Started helix_pump_ms.py
+18:00:22 -- ******* Post Measurement Started helix_pump_ms.py *******
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=3.60012054443e-05
+open ('1',) {}
+open name=1 desc=---
+check software interlocks 1
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Valve Ion Pump Set ===>> OK
+change switch state (True, True)
+update switch state 1 True args=() kw={} ncanvase=2
+18:00:22 -- OPEN   VALVE-1 (MSIonPump)
+-------------------------- open 1 () result=[(True, True)]
+action=open, ok=True, locked=[False]
+executed snippet estimated_duration=0, duration=0.266285896301
+helix_pump_ms.py completed successfully
+setting _ms_pumptime
+Post Measurement Finished
+18:00:22 -- ******* Post Measurement Finished *******
+$$$$$$$$$$$$$$$$$$$$ state at run end measurement
+state changed from measurement to success
+post measurement save measured=True aborted=False
+Set filtering
+setting fod for Ar40= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for H2= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar36= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for L2(CDD)= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar37= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for L1= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar38= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for AX= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar39= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for H1= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+persistence save...
+persistence save - db
+post measurement save
+5104258608 connecting to database sqlite:////Users/labuser/Pychron/.appdata/local_lab.db
+connected to db sqlite:////Users/labuser/Pychron/.appdata/local_lab.db
+create new session 5104258608
+close session 5104258608
+No database instance. Not saving post measurement to isotopedb database
+$$$$$$$$$$$$$$$ auto_save_detector_ic=False
+persistence save - dvc
+================= post measurement started
+create new session 4931346800
+close session 4931346800
+---------------- Experiment Queue saving disabled
+DVC saving peakcenter
+Smart pull ahead: 0 behind: 0
+Up-to-date with origin
+add to repo msg=modified - 89bc375cd845c070619816cb57227db1a8e33785.json
+add to repo msg=modified - -H-08.json
+add to repo msg=modified - -H-08.dat.json
+add to repo msg=modified - -H-08.blan.json
+add to repo msg=modified - -H-08.inte.json
+add to repo msg=modified - -H-08.icfa.json
+add to repo msg=modified - -H-08.base.json
+not at valid file /Users/labuser/Pychron/data/.dvc/repositories/Helix_air170/a-01/tags/-H-08.tags.json
+add to repo msg=modified - -H-08.peak.json
+add to repo msg=modified - -H-08.extr.json
+not at valid file /Users/labuser/Pychron/data/.dvc/repositories/Helix_air170/a-01/monitor/-H-08.moni.json
+commit message=<COLLECTION>
+add to repo msg=modified - -H-08.inte.json
+add to repo msg=modified - -H-08.base.json
+commit message=<ISOEVO> default collection fits
+add to repo msg=modified - -H-08.blan.json
+commit message=<BLANKS> preceding ba-01-H-07
+add to repo msg=modified - -H-08.icfa.json
+commit message=<ICFactor> default
+push repository <pychron.git_archive.repo_manager.GitRepoManager object at 0x1274e61d0>
+pushing to remote=origin, url=https://github.com
+no changes to meta repo
+create new session 4931346800
+add association Helix_air170
+get identifier "a-01-H"
+setting analysis irradiation position=<pychron.dvc.dvc_orm.IrradiationPositionTbl object at 0x1302640d0>
+close session 4931346800
+================= post measurement finished
+18:00:28 -- ******* Post Run Check *******
+loading queue conditionals post_run_actions
+loading system conditionals post_run_actions
+no system conditionals file located at None
+loading queue conditionals post_run_terminations
+loading system conditionals post_run_terminations
+no system conditionals file located at None
+18:00:28 -- ******* Post Run Check Passed *******
+18:00:28 -- Automated run a-01-H-08 success duration: 383.424 s
+----------------- finish -----------------
+----------------- stop -----------------
+retroactive repository identifiers disabled
+finish run. runs completed=2
+update duration runid=a-01-H-08, duration=383.423904896, md5=060fae79
+loading script "helix_air.py"
+loading script "helix_pump_ms.py"
+loading script "helix_air.py"
+loading script "helix_pump_prep.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=286.88, duration=0.000278949737549
+script duration name:air seconds:287.0
+loading script "helix_air.py"
+loading script "helix_pump_ms.py"
+loading script "helix_air.py"
+loading script "helix_pump_prep.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=3.50475311279e-05
+air in script context. using previous estimated duration
+script duration name:air seconds:287.0
+loading script "helix_air.py"
+loading script "helix_pump_ms.py"
+loading script "helix_air.py"
+loading script "helix_pump_prep.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.00012993812561
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+pump_ms in script context. using previous estimated duration
+script duration name:air seconds:287.0
+pump_prep in script context. using previous estimated duration
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+script duration name:air seconds:287.0
+script duration name:air seconds:287.0
+Script duration 574.0
+Run total estimated duration= 575.000
+nruns=35 before=5.0, run_dur=20125.0, btw=1020.0
+write rem/ex queues
+/Users/labuser/Pychron/experiments/rem/Air.rem.txt
+/Users/labuser/Pychron/experiments/rem/Air.ex.txt
+doing event level: 3
